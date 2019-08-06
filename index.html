@@ -4,9 +4,21 @@
     <title>2Do</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-    
+    <div class="app">
+      <h1>ToDOM</h1>
+      <section class="form">
+        <label for="todo-input">Add to your todo list!</label>
+        <input class="todo-input "type="text" name="todo-input">
+        <button class="add-todo">ADD</button>
+        <label for="index-input">Remove an index from your todo list! (Counting from zero because coding.)</label>
+        <input class="index-input "type="text" name="index-input">
+        <button class="remove-todo">REMOVE</button>
+      </section>
+      <ol class="todo-list"></ol>
+    </div>
     <script src="./main.js"></script>
   </body>
 </html>
