@@ -8,14 +8,16 @@
   </head>
   <body>
     <div class="app">
-      <h1>ToDOM</h1>
+      <h1>2DO</h1>
       <section class="form">
         <label for="todo-input">Add to your todo list!</label>
         <input class="todo-input "type="text" name="todo-input">
         <button class="add-todo">ADD</button>
-        <label for="index-input">Remove an index from your todo list! (Counting from zero because coding.)</label>
-        <input class="index-input "type="text" name="index-input">
-        <button class="remove-todo">REMOVE</button>
+        <label for="number-input">Mark a todo complete (Enter its number, please.)</label>
+        <input class="number-input "type="text" name="number-input">
+        <button class="mark-todo-complete">MARK COMPLETE</button>
+        <hr>
+        <button class="delete-completed-todos">DELETE COMPLETED</button>
       </section>
       <ol class="todo-list"></ol>
     </div>
